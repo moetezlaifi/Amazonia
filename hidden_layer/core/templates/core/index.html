@@ -1,0 +1,37 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+
+{% block title %}Amazonia: The Hidden Layer{% endblock %}
+
+{% block extra_head %}
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="hero-section">
+        <header class="navbar">
+            <div class="logo">
+                <img src="{% static 'core/revoltech_logo.png' %}" alt="Revoltech Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'index' %}">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="https://www.facebook.com/acmenstab" target="_blank">Contact</a></li>
+                    <li><a href="{% url 'map' %}" class="btn-explore">Explore</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero-content">
+            <h1 class="main-title">Amazonia</h1>
+            <h2 class="subtitle">The Hidden Layer</h2>
+            <p class="description">
+                The Amazon is not untouched wilderness but a living archive shaped by ancient civilizations.
+                Our platform uses satellite imagery and AI to read subtle shifts in vegetation and landscape,
+                highlighting forest patches that quietly stand apart from their surroundings, inviting deeper investigation.
+            </p>
+            <a href="{% url 'map' %}" class="btn-explore-large">Explore</a>
+        </div>
+    </div>
+{% endblock %}

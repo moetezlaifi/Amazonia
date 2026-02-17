@@ -1,0 +1,57 @@
+{
+  "bbox": [
+    -74.645507,
+    -2.065954,
+    -72.290039,
+    0.182042
+  ],
+  "mode": "dinov2",
+  "cloud_pct": 20,
+  "days_back": 30,
+  "data_source": {
+    "source": "offline_demo"
+  },
+  "hotspots": [
+    {
+      "lon": -73.43844944085484,
+      "lat": -0.2176505936745905,
+      "score": 0.730876425876631,
+      "priority": "Low",
+      "reasons": [
+        "DINOv2 structural score"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -74.55418147515792,
+      "lat": -1.4767248628367085,
+      "score": 0.8019159848533564,
+      "priority": "Medium",
+      "reasons": [
+        "DINOv2 structural score"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -73.90627887600301,
+      "lat": -0.9631907978133487,
+      "score": 0.8236359770838029,
+      "priority": "Medium",
+      "reasons": [
+        "DINOv2 structural score"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -73.59157158399836,
+      "lat": -0.22106298429364668,
+      "score": 0.8525513356280241,
+      "priority": "Medium",
+      "reasons": [
+        "DINOv2 structural score"
+      ],
+      "source": "dinov2"
+    }
+  ],
+  "disclaimer": "Decision support only. Validate with additional sources."
+}

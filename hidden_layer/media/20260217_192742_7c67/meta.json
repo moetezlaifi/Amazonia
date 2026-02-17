@@ -1,0 +1,71 @@
+{
+  "bbox": [
+    -72.641602,
+    -1.820172,
+    -70.672852,
+    -0.20441
+  ],
+  "mode": "original",
+  "cloud_pct": 20,
+  "days_back": 30,
+  "data_source": {
+    "source": "offline_demo"
+  },
+  "hotspots": [
+    {
+      "lon": -70.72590787407994,
+      "lat": -1.7122557708319353,
+      "score": 0.9292815846273277,
+      "priority": "High",
+      "reasons": [
+        "spectral anomaly"
+      ]
+    },
+    {
+      "lon": -71.14082587138174,
+      "lat": -1.0416112965402764,
+      "score": 0.8569863654892207,
+      "priority": "High",
+      "reasons": [
+        "spectral anomaly"
+      ]
+    },
+    {
+      "lon": -70.67867488730683,
+      "lat": -1.735065963459807,
+      "score": 0.8289772083612061,
+      "priority": "Medium",
+      "reasons": [
+        "spectral anomaly"
+      ]
+    },
+    {
+      "lon": -72.64118665268484,
+      "lat": -0.5182566636570987,
+      "score": 0.7784328636724007,
+      "priority": "Medium",
+      "reasons": [
+        "spectral anomaly"
+      ]
+    },
+    {
+      "lon": -71.09682585338545,
+      "lat": -0.5884080682299393,
+      "score": 0.7390465603251056,
+      "priority": "Medium",
+      "reasons": [
+        "spectral anomaly"
+      ]
+    },
+    {
+      "lon": -70.71396945994175,
+      "lat": -0.5773360630127728,
+      "score": 0.7038100483594004,
+      "priority": "Medium",
+      "reasons": [
+        "spectral anomaly"
+      ]
+    }
+  ],
+  "disclaimer": "Decision support only. Validate with additional sources."
+}

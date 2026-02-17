@@ -1,0 +1,121 @@
+{
+  "bbox": [
+    -72.331077,
+    -1.038974,
+    -72.02121,
+    -0.656596
+  ],
+  "mode": "merge",
+  "cloud_pct": 20,
+  "days_back": 30,
+  "data_source": {
+    "source": "offline_demo"
+  },
+  "hotspots": [
+    {
+      "lon": -72.0469235739619,
+      "lat": -0.6910008126287,
+      "score": 0.9795604664417923,
+      "priority": "High",
+      "reasons": [
+        "DINOv2 structural score",
+        "Found by DINOv2"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -72.12339427012758,
+      "lat": -0.9021053784664927,
+      "score": 0.9476309607862778,
+      "priority": "High",
+      "reasons": [
+        "DINOv2 structural score",
+        "Found by DINOv2"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -72.0930409860434,
+      "lat": -0.8708367846147593,
+      "score": 0.9359196082117193,
+      "priority": "High",
+      "reasons": [
+        "spectral anomaly",
+        "Found by Original"
+      ]
+    },
+    {
+      "lon": -72.14171465422594,
+      "lat": -1.0148974186867963,
+      "score": 0.9306365808101238,
+      "priority": "High",
+      "reasons": [
+        "spectral anomaly",
+        "Found by Original"
+      ]
+    },
+    {
+      "lon": -72.2210743157924,
+      "lat": -0.8847661913497795,
+      "score": 0.8764103871387525,
+      "priority": "Medium",
+      "reasons": [
+        "DINOv2 structural score",
+        "Found by DINOv2"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -72.0221294431028,
+      "lat": -0.9704113923203176,
+      "score": 0.8235977693441666,
+      "priority": "Medium",
+      "reasons": [
+        "spectral anomaly",
+        "Found by Original"
+      ]
+    },
+    {
+      "lon": -72.23284390916872,
+      "lat": -0.7757607745282602,
+      "score": 0.7174968881238711,
+      "priority": "Low",
+      "reasons": [
+        "DINOv2 structural score",
+        "Found by DINOv2"
+      ],
+      "source": "dinov2"
+    },
+    {
+      "lon": -72.28662041888285,
+      "lat": -0.9231722202607981,
+      "score": 0.6796494755394589,
+      "priority": "Low",
+      "reasons": [
+        "spectral anomaly",
+        "Found by Original"
+      ]
+    },
+    {
+      "lon": -72.20151780718794,
+      "lat": -0.6979357130612888,
+      "score": 0.6619671462845556,
+      "priority": "Low",
+      "reasons": [
+        "spectral anomaly",
+        "Found by Original"
+      ]
+    },
+    {
+      "lon": -72.19170254974256,
+      "lat": -0.815411332341064,
+      "score": 0.6505363790131234,
+      "priority": "Low",
+      "reasons": [
+        "spectral anomaly",
+        "Found by Original"
+      ]
+    }
+  ],
+  "disclaimer": "Decision support only. Validate with additional sources."
+}
