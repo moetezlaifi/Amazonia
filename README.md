@@ -1,6 +1,6 @@
 # 🌿 Amazonia  
 ## AI-Powered Digital Excavation for the Amazon
-## worked on this project alongside with [@username](https://github.com/elaaelfahem)
+## worked on this project alongside with [Elaa El Fahem](https://github.com/elaaelfahem)
 
 🥇 **1st Place — Upside Hack Hackathon (Nerdata ENSIT Club)**
 
